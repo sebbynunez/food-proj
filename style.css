@@ -7,13 +7,14 @@ body {
   color: white;
   font-size: 50px;
 }
-
+.Links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 ul {
     width: 50%;
-    position: relative;
-    left: 350px;
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #659060;
@@ -43,7 +44,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 17px 16px;
     text-decoration: none;
 }
 li a:hover {
