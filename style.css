@@ -7,16 +7,35 @@ body {
   color: white;
   font-size: 50px;
 }
+
 ul {
+    width: 50%;
+    position: relative;
+    left: 350px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #659060;
 }
-
+.mission {
+  background-color:#659060;
+  font-size: 20px;
+  padding: 25px;
+}
+.slogan {
+  text-align: center;
+  background-color: #659060;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+}
+.subtitle{
+  color: white;
+  text-decoration: underline;
+}
 li a {
-    border: dotted;
+    border: solid;
     text-align: center;
     display: block;
     color: white;
@@ -25,5 +44,5 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: #447700 ;
 }
