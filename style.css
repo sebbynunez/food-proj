@@ -22,13 +22,16 @@ ul {
   background-color:#659060;
   font-size: 20px;
   padding: 25px;
+  border-style: solid;
+  border-color: white;
 }
 .slogan {
   text-align: center;
   background-color: #659060;
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   color: white;
+  border-style: solid;
 }
 .subtitle{
   color: white;
