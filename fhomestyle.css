@@ -1,0 +1,21 @@
+#homepage{
+  background-image: url('https://www.organicfacts.net/wp-content/uploads/organicfood5.jpg')
+}
+h1{
+  text-align: center;
+}
+#links{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.health{
+  position: relative;
+  left: 500px;
+}
+
+.groceries{
+  position:relative;
+  right: 150px;
+}
