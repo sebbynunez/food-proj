@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Locations</title>
+    <link rel="stylesheet" href="style.css"></link>
+  <style>
+        #map {
+          height: 400px;
+          width: 700px;
+         }
+      </style>
+    </head>
+    <body>
+      <h1 class="title"> Healthy Locations</h1>
+      <div class="Links">
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Daily Health Check</a></li>
+      <li><a href="index.html">Healthy Options</a></li>
+    </ul>
+      </div>
+    <br>
+            <h1 id="design">Check These Places Out!</h1>
+      <section class="mission" id="mapping">
+      <div id="map"></div>
+      <script>
+      function myMap() {
+        var myCenter = new google.maps.LatLng(34.0201812,-118.6919205);
+        var myCenter2 = new google.maps.LatLng(33.9572987,-118.4832605);
+        var myCenter3 = new google.maps.LatLng(34.1093724,-118.2073767);
+        var myCenter4 = new google.maps.LatLng(33.7869785,-118.024729);
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {center: myCenter, zoom: 9};
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position:myCenter});
+        var marker2 = new google.maps.Marker({position:myCenter2});
+        var marker3 = new google.maps.Marker({position:myCenter3});
+        var marker4 = new google.maps.Marker({position:myCenter4});
+        marker.setMap(map);
+        marker2.setMap(map);
+        marker3.setMap(map);
+        marker4.setMap(map);
+        google.maps.event.addListener(marker,'click',function() {
+          var infowindow = new google.maps.InfoWindow({
+            content:"The Grain Cafe!"
+          });
+        infowindow.open(map,marker);
+        });
+      google.maps.event.addListener(marker2,'click',function() {
+          var infowindow2 = new google.maps.InfoWindow({
+            content:"Veggie Grill!"
+          });
+        infowindow2.open(map,marker2);
+        });
+      google.maps.event.addListener(marker3,'click',function() {
+          var infowindow3 = new google.maps.InfoWindow({
+            content:"Little Pine Restaurant!"
+          });
+        infowindow3.open(map,marker3);
+        });
+      google.maps.event.addListener(marker4,'click',function() {
+          var infowindow4 = new google.maps.InfoWindow({
+            content:"Vegi Wokery!"
+          });
+        infowindow4.open(map,marker4);
+          });
+      }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBv2P4MSVgkDjhbY67MPacnB9HdqsHCTP8&callback=myMap">
+      </script>
+      <div id="recommend">
+      <p>
+        <h2>Recommendations for You</h2>
+          <ul>
+            <li>The Grain Cafe</li>
+            <li>Veggie Grill</li>
+            <li>Little Pine Restaurant</li>
+            <li>Vegi Wokery</li>
+          </ul>
+      </p>
+    </div>
+    </section>
+    </body>
+  </html>

@@ -26,6 +26,14 @@ ul {
   border-style: solid;
   border-color: white;
 }
+h3 {
+  color: white;
+}
+#mapping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .slogan {
   text-align: center;
   background-color: #659060;
@@ -37,6 +45,16 @@ ul {
 .subtitle{
   color: white;
   text-decoration: underline;
+}
+#design {
+  background-color: #659060;
+  color: white;
+  padding: 5px;
+}
+#recommend {
+  color: white;
+  width: 45%;
+  margin: 20px;
 }
 li a {
     border: solid;
