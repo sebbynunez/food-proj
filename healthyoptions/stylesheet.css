@@ -1,0 +1,492 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMwByS-ckQuiGNV35gN44PAbrOBzY-_cN6XN6t7coAQyZLFSyJ");
+}
+#title1{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#title2{
+  flex-direction: row;
+}
+#food1{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+#column1{
+  flex-direction: column;
+  border-top: 6px solid black;
+  border-left: 6px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black
+}
+#column2{
+  flex-direction: column;
+  border-top: 6px solid black;
+  border-left: 3px solid black;
+  border-right: 6px solid black;
+  border-bottom: 3px solid black
+}
+#column3{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 6px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black
+}
+#column4{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 6px solid black;
+  border-bottom: 3px solid black
+}
+#column5{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 6px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black
+}
+#column6{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 6px solid black;
+  border-bottom: 3px solid black
+}
+#column7{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 6px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black
+}
+#column8{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 6px solid black;
+  border-bottom: 3px solid black
+}
+#column9{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 6px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black
+}
+#column10{
+  flex-direction: column;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black
+}
+.chips {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.pchips {
+  display: block;
+  width: 100%;
+  height: 275px;
+  border: solid;
+}
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 280px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.chips:hover .overlay1 {
+  opacity: 1;
+}
+.text1 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.popcorn {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.popc {
+  display: block;
+  width: 100%;
+  height: 275px;
+  border: solid;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 280px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.popcorn:hover .overlay2 {
+  opacity: 1;
+}
+.text2 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#food2{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.burger {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hburger {
+  display: block;
+  width: 100%;
+  height: 250px;
+  border: solid;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 255px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.burger:hover .overlay3 {
+  opacity: 1;
+}
+.text3 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.sandwich {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.turkeys {
+  display: block;
+  width: 100%;
+  height: 250px;
+  border: solid;
+}
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 255px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.sandwich:hover .overlay4 {
+  opacity: 1;
+}
+.text4 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#food3{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.soda {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fsoda {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: solid;
+}
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 205px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.soda:hover .overlay5 {
+  opacity: 1;
+}
+.text5 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.smoothie {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hsmoothie {
+  display: block;
+  width: 100%;
+  height: 201px;
+  border: solid;
+}
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 205px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.smoothie:hover .overlay6 {
+  opacity: 1;
+}
+.text6 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#food4{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.cereal {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.scereal {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: solid;
+}
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 205px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.cereal:hover .overlay7 {
+  opacity: 1;
+}
+.text7 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.oatmeal {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hoatmeal {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border: solid;
+}
+.overlay8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 205px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.oatmeal:hover .overlay8 {
+  opacity: 1;
+}
+.text8 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#food5{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.fastfried {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fffood {
+  display: block;
+  width: 100%;
+  height: 250px;
+  border: solid;
+}
+.overlay9 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 255px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.fastfried:hover .overlay9 {
+  opacity: 1;
+}
+.text9 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.homemade {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hmfood {
+  display: block;
+  width: 100%;
+  height: 250px;
+  border: solid;
+}
+.overlay10 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 255px;
+  width: 102%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: Green;
+}
+.homemade:hover .overlay10 {
+  opacity: 1;
+}
+.text10 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  flex-direction: column;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.Unhealth{
+  position: relative;
+  right: 210px;
+    top: 50px;
+}
+
+.Health{
+  position: relative;
+  left: 190px;
+    bottom: 6px;
+}
